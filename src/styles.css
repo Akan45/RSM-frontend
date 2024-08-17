@@ -112,6 +112,11 @@
     line-height: 21.6px;
   }
 
+  /* Section5 Styles */
+  #section5 {
+    text-align: center;
+  }
+
   @media (max-width: 400px) {
     .custom-mx {
       margin-left: 3vw;

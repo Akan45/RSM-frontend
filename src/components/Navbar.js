@@ -38,7 +38,7 @@ const Navbar = ({name}) => {
   return (
     <div className="w-full fixed z-50">
       <nav
-        className="h-15 bg-gray-400 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 mx-[9vw] my-[3vmax] max-w-[400px]:mx-[1vw] custom-mx"
+        className="h-15 bg-white rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 mx-[9vw] my-[3vmax] max-w-[400px]:mx-[1vw] custom-mx"
         id="navbar"
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-around nav-mob mx-auto p-3">
@@ -54,11 +54,11 @@ const Navbar = ({name}) => {
                 to={
                   localStorage.getItem("authToken") ? "/profile" : "/register"
                 }
-                className="text-black no-underline bg-blue-50 hover:bg-violet-300 font-medium rounded-lg text-sm px-4 py-2 text-center cursor-pointer"
+                className="text-black no-underline bg-lime-400 font-Aeo hover:scale-110 font-medium rounded-lg text-sm px-4 py-2 text-center cursor-pointer"
               >
                 {localStorage.getItem("authToken") ? (
                   <div
-                    className="d-flex align-items-center"
+                    className="d-flex align-items-center "
                     style={{ gap: "5px" }}
                   >
                     Hi, {localStorage.getItem("userName")} <CgProfile className="fs-6" />
@@ -99,23 +99,16 @@ const Navbar = ({name}) => {
               <li>
                 <button
                   onClick={() => handleNavigation("section2")}
-                  className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                  className="nav-links block text-white font-Aeonik   rounded hover:scale-110 md:bg-transparent cursor-pointer"
                 >
                   About
                 </button>
               </li>
-              <li>
-                <button
-                  onClick={() => handleNavigation("section3")}
-                  className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
-                >
-                  Community
-                </button>
-              </li>
+              
               <li>
                 <button
                   onClick={() => handleNavigation("section4")}
-                  className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                  className="nav-links block text-white rounded hover:scale-110 shadow-black md:bg-transparent cursor-pointer"
                 >
                   Complaint
                 </button>
@@ -123,7 +116,7 @@ const Navbar = ({name}) => {
               <li>
                 <button
                   onClick={() => handleNavigation("section5")}
-                  className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                  className="nav-links block text-white rounded hover:scale-110 md:bg-transparent cursor-pointer"
                 >
                   Services
                 </button>
@@ -131,7 +124,7 @@ const Navbar = ({name}) => {
               <li>
                 <button
                   onClick={() => handleNavigation("section6")}
-                  className="nav-links block text-white rounded hover:bg-gray-900 md:bg-transparent cursor-pointer"
+                  className="nav-links block text-white rounded hover:scale-110 md:bg-transparent cursor-pointer"
                 >
                   FAQs
                 </button>

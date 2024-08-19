@@ -2,7 +2,8 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <div>Section2</div>
+  <div><h1 className=' text-center text-white font-Aero mt-20  '> Fill Your Grievance </h1>
+</div>
   )
 }
 

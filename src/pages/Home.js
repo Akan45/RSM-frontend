@@ -9,6 +9,7 @@ import Section5 from '../components/Section5';
 import Section6 from '../components/Section6';
 import ScrollToTop from '../components/ScrollToTop';
 import Empty from '../components/Empty';
+import About from '../components/About';
 
 const Home = () => {
   const location = useLocation();
@@ -25,30 +26,34 @@ const Home = () => {
 
   return (
     <>
-      <Element name="section1">
+
+    <div class="bg-[url('../public/hi.jpg')] bg-cover h-[650px]  ">
+    <Element name="section1">
         <Section1 />
       </Element>
       <Element name="section2">
-        <Empty/>
-        <Section2/>
-      </Element>
+      <Empty/>
+        <Section2/></Element>
       <Element name="section3">
-        <Empty/>
+       
         <Section3 />
       </Element>
-      <Element name="section4">
-        <Empty/>
-        <Section4 />
-      </Element>
+     
+      </div>
+      
+      
       <Element name="section5">
-        <Empty/>
+       
         <Section5 />
       </Element>
+      <Empty/>
+      <About/>
       <Element name="section6">
-        <Empty/>
+      <Empty/>
         <Section6 />
       </Element>
-      <ScrollToTop/>
+
+    <ScrollToTop/>
     </>
   );
 };

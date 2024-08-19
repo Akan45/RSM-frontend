@@ -15,13 +15,13 @@ const Footer = () => {
             <div id="footer-right">
                 <ul className="flex gap-6 pl-0">
                     <li>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-white">User Manual</a>
+                        <a href="/" target="_blank" rel="noopener noreferrer" className=" text-slate-200 font-led ">User Manual</a>
                         </li>
                     <li>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-white">Railway Admin Login </a>
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-slate-200 font-led ">Railway Admin Login </a>
                         </li>
                     <li>
-                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-white">MIS Report Login</a>
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-slate-200 font-led ">MIS Report Login</a>
                         </li>
                 </ul>
             </div>

@@ -15,3 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Led-counter";
+  src: url("../src/assets/fonts/led-counter-7/led_counter-7.ttf");
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../src/assets/fonts/New Aeonik Trials/AeonikTRIAL-Bold.otf ");
+}
+@font-face {
+  font-family: "Aeo";
+  src: url("../src/assets/fonts/New Aeonik Trials/AeonikTRIAL-Regular.otf ");
+}
